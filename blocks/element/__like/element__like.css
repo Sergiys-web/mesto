@@ -1,4 +1,4 @@
-.element__like{
+.element__like {
     padding: 0;
     border: 0;
     margin-right: 1px;
@@ -9,12 +9,15 @@
     background-image: url(../../../images/like.png);
     cursor: pointer;
 }
-.element__like:focus{
+
+.element__like:focus {
     background-image: url(../../../images/Union.png);
 }
-.element__like:hover{
+
+.element__like:hover {
     opacity: 50%;
 }
-.element__like:active{
+
+.element__like:active {
     background-image: url(../../../images/Union.png);
 }

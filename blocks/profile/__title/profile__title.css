@@ -1,11 +1,11 @@
-.profile__title{
+.profile__title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 @media(max-width: 450px) {
-    .profile__title{
+    .profile__title {
         width: 217px;
     }
 }

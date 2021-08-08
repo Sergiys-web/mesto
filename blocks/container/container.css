@@ -3,14 +3,8 @@
     margin: auto;
 }
 
- @media (max-width:880px) {
+@media (max-width:880px) {
     .container {
-        max-width:282px;
+        max-width: 282px;
     }
 }
-
-/* @media (max-width:599px) {
-    .container {
-        max-width:282px;
-    }
-}  */
