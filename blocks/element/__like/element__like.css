@@ -1,0 +1,20 @@
+.element__like{
+    padding: 0;
+    border: 0;
+    margin-right: 1px;
+    margin-top: 5px;
+    width: 22px;
+    height: 19px;
+    background-color: white;
+    background-image: url(../../../images/like.png);
+    cursor: pointer;
+}
+.element__like:focus{
+    background-image: url(../../../images/Union.png);
+}
+.element__like:hover{
+    opacity: 50%;
+}
+.element__like:active{
+    background-image: url(../../../images/Union.png);
+}

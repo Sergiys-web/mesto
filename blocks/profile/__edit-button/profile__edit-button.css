@@ -1,0 +1,12 @@
+.profile__edit-button {
+    background: #000000;
+    border: solid 1px #FFFFFF;
+    display: inline;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.profile__edit-button:hover{
+    opacity: 50%;
+}

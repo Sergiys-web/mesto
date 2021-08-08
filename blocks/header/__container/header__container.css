@@ -1,0 +1,9 @@
+.header__container{
+    margin: auto;
+}
+
+@media (max-width:599px) {
+    .header__container {
+        max-width: 282px;
+    }
+}
