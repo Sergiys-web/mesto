@@ -7,3 +7,9 @@
     margin: 0;
     position: relative;
 }
+
+@media (max-width:320px) {
+    .popup__form {
+        width: 282px;
+    }
+}
