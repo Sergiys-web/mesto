@@ -1,5 +1,14 @@
 .profile__image {
     border-radius: 100%;
-    max-width: 168px;
-    height: auto;
+    max-height: 127px;
+}
+
+@media (max-width:600px) {
+    .profile__image {
+        max-width: 127px;
+    }
+}
+
+.profile__image-wrapper {
+    width: 168px;
 }

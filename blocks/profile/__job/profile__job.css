@@ -8,10 +8,11 @@
     width: 336px;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 800px) {
     .profile__job {
         font-size: 14px;
         line-height: 17px;
         width: 282px;
+        text-align: center;
     }
 }

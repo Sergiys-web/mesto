@@ -1,3 +1,13 @@
 .profile__table {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media(max-width: 790px) {
+    .profile__table {
+        align-items: center;
+    }
 }

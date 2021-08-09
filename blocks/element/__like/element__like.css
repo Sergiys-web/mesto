@@ -5,6 +5,7 @@
     margin-top: 5px;
     width: 22px;
     height: 19px;
+    background-repeat: no-repeat;
     background-color: white;
     background-image: url(../../../images/like.png);
     cursor: pointer;

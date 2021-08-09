@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 600px) {
     .profile__title {
-        width: 217px;
+       max-width: 217px;
     }
 }

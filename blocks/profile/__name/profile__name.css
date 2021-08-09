@@ -5,14 +5,15 @@
     font-size: 42px;
     line-height: 48px;
     color: #FFFFFF;
-    width: 294px;
+    max-width: 294px;
     margin: 0;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 800px) {
     .profile__name {
         font-size: 27px;
         line-height: 33px;
-        width: 189px;
+        max-width: 189px;
+        text-align: center;
     }
 }
