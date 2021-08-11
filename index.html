@@ -26,14 +26,14 @@
           <div class="profile__table">
             <div class="profile__title">
               <h1 class="profile__name">Жак-Ив Кусто</h1>
-              <button type="submit" class="profile__edit-button button">
-                <img src="images/Edit.svg" alt="Редактировать" />
+              <button type="button" class="profile__edit-button button">
+                <img class="profile__edit-image" src="images/Edit.svg" alt="Редактировать">
               </button>
             </div>
             <p class="profile__job">Исследователь океана</p>
           </div>
         </div>
-        <button class="profile__add-button" type="submit">
+        <button class="profile__add-button" type="button">
           <img class="profile__plus" src="images/Add.svg" alt="+" />
         </button>
       </section>
@@ -46,7 +46,7 @@
           />
           <div class="element__footer">
             <h2 class="element__text">Карачаевск</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element__frame">
@@ -57,7 +57,7 @@
           />
           <div class="element__footer">
             <h2 class="element__text">Гора Эльбрус</h2>
-            <button class="element__like" type="submit"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element__frame">
@@ -68,7 +68,7 @@
           />
           <div class="element__footer">
             <h2 class="element__text">Домбай</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element__frame">
@@ -79,7 +79,7 @@
           />
           <div class="element__footer">
             <h2 class="element__text">Гора Эльбрус</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element__frame">
@@ -90,7 +90,7 @@
           />
           <div class="element__footer">
             <h2 class="element__text">Домбай</h2>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
         <div class="element__frame">
@@ -101,7 +101,7 @@
           />
           <div class="element__footer">
             <div class="element__text">Карачаево-Черкессия</div>
-            <button class="element__like"></button>
+            <button class="element__like" type="button"></button>
           </div>
         </div>
       </section>
@@ -112,20 +112,20 @@
 
     <div class="popup">
       <div class="popup__container">
-        <form class="popup__form" name="popup__form">
-          <button type="button" class="popup__close-button">
-            <img src="images/CloseIcon.svg" alt="X"/>
-          </button>
+        <button type="button" class="popup__close-button">
+          <img class="popup__close-image" src="images/CloseIcon.svg" alt="X">
+        </button>
+        <form name="popup__form">
           <h2 class="popup__title">Редактировать профиль</h2>
           <input
             type="text"
-            class="popup__input popup__input_name"
+            class="popup__input popup__input_type_name"
             name="name"
             placeholder="Имя"
           />
           <input
             type="text"
-            class="popup__input popup__input_job"
+            class="popup__input popup__input_type_job"
             name="job"
             placeholder="Работа"
           />
