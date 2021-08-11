@@ -10,67 +10,95 @@
   <body class="root">
     <header class="header">
       <div class="header__container">
-        <img class="header__logo" src="images/Vector.png" />
+        <img class="header__logo" src="images/Mesto.svg" alt="Mesto" />
       </div>
     </header>
     <main>
       <section class="profile container">
-        <div class="profile__info" >
+        <div class="profile__info">
           <div class="profile__image-wrapper">
-            <img class="profile__image" src="images/image.png" />
+            <img
+              class="profile__image"
+              src="images/image.jpg"
+              alt="Фото профиля"
+            />
           </div>
-
-        <ul class="profile__table">
-          <li class="profile__title">
-            <h1 class="profile__name">Жак-Ив Кусто 
-            </h1>
-            <button class="profile__edit-button button"><img src="images/Vector2.png"></button>
-          </li>
-          <li>
+          <div class="profile__table">
+            <div class="profile__title">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button type="submit" class="profile__edit-button button">
+                <img src="images/Edit.svg" alt="Редактировать" />
+              </button>
+            </div>
             <p class="profile__job">Исследователь океана</p>
-          </li>
-        </ul>
+          </div>
         </div>
-        <button class="profile__add-button"><img class="profile__plus" src="images/Vector+.png"></button>
+        <button class="profile__add-button" type="submit">
+          <img class="profile__plus" src="images/Add.svg" alt="+" />
+        </button>
       </section>
       <section class="element container">
         <div class="element__frame">
-          <img src="images/kirill-pershin-1088404-unsplash-1.png" />
+          <img
+            src="images/kirill-pershin-1088404-unsplash-1.jpg"
+            alt="Монастырь"
+            class="element__images"
+          />
           <div class="element__footer">
-            <p class="element__text">Карачаевск</p>
+            <h2 class="element__text">Карачаевск</h2>
             <button class="element__like"></button>
           </div>
         </div>
         <div class="element__frame">
-          <img src="images/kirill-pershin-1404681-unsplash-1.png" />
+          <img
+            src="images/kirill-pershin-1404681-unsplash-1.jpg"
+            alt="Закат"
+            class="element__images"
+          />
           <div class="element__footer">
-            <p class="element__text">Гора Эльбрус</p>
+            <h2 class="element__text">Гора Эльбрус</h2>
+            <button class="element__like" type="submit"></button>
+          </div>
+        </div>
+        <div class="element__frame">
+          <img
+            src="images/kirill-pershin-1556355-unsplash-1.jpg"
+            alt="Горы"
+            class="element__images"
+          />
+          <div class="element__footer">
+            <h2 class="element__text">Домбай</h2>
             <button class="element__like"></button>
           </div>
         </div>
         <div class="element__frame">
-          <img src="images/kirill-pershin-1556355-unsplash-1.png" />
+          <img
+            src="images/kirill-pershin-1404681-unsplash.jpg"
+            alt="Закат"
+            class="element__images"
+          />
           <div class="element__footer">
-            <p class="element__text">Домбай</p>
+            <h2 class="element__text">Гора Эльбрус</h2>
             <button class="element__like"></button>
           </div>
         </div>
         <div class="element__frame">
-          <img src="images/kirill-pershin-1404681-unsplash.png" />
+          <img
+            src="images//kirill-pershin-1556355-unsplash.jpg"
+            alt="Горы"
+            class="element__images"
+          />
           <div class="element__footer">
-            <p class="element__text">Гора Эльбрус</p>
+            <h2 class="element__text">Домбай</h2>
             <button class="element__like"></button>
           </div>
         </div>
         <div class="element__frame">
-          <img src="images//kirill-pershin-1556355-unsplash.png" />
-          <div class="element__footer">
-            <p class="element__text">Домбай</p>
-            <button class="element__like"></button>
-          </div>
-        </div>
-        <div class="element__frame">
-          <img src="images/kirill-pershin-1088404-unsplash.png" />
+          <img
+            src="images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Монастырь"
+            class="element__images"
+          />
           <div class="element__footer">
             <div class="element__text">Карачаево-Черкессия</div>
             <button class="element__like"></button>
@@ -79,19 +107,35 @@
       </section>
     </main>
     <footer class="footer container">
-      <p>© 2020 Mesto Russia</p>
+      <p class="footer__text">© 2020 Mesto Russia</p>
     </footer>
+
     <div class="popup">
       <div class="popup__container">
-        <form class="popup__form">
-          <button type="button" class="popup__close-button "><img src="images/CloseIcon.png" alt="X"></button>
-            <div  class="popup__title">Редактировать профиль</div>
-            <input type="text" class="popup__input popup__input_name" name="name" placeholder="Имя">
-            <input type="text" class="popup__input popup__input_job" name="job" placeholder="Работа">
-            <button type="submit" class="popup__save-button" value="Сохранить">Сохранить</button>
+        <form class="popup__form" name="popup__form">
+          <button type="button" class="popup__close-button">
+            <img src="images/CloseIcon.svg" alt="X"/>
+          </button>
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input
+            type="text"
+            class="popup__input popup__input_name"
+            name="name"
+            placeholder="Имя"
+          />
+          <input
+            type="text"
+            class="popup__input popup__input_job"
+            name="job"
+            placeholder="Работа"
+          />
+          <button type="submit" class="popup__save-button" value="Сохранить">
+            Сохранить
+          </button>
         </form>
       </div>
     </div>
+
     <script src="./js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+.profile__image-wrapper {
+    width: 168px;
+}
+
+@media(max-width:600px) {
+    .profile__image-wrapper {
+        margin-bottom: 22px;
+        text-align: center;
+    }
+}

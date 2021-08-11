@@ -8,10 +8,10 @@ let profileName = document.querySelector('.profile__name');
 let profileJob = document.querySelector('.profile__job');
 
 let popupOpen = () => {
-  popup.classList.add('popup__opened');
+  popup.classList.add('popup-opened');
 }
 let popupClose = () => {
-  popup.classList.remove('popup__opened');
+  popup.classList.remove('popup-opened');
 }
 let formSubmitHandler = evt => {
     evt.preventDefault();

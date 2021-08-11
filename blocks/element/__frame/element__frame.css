@@ -1,6 +1,5 @@
 .element__frame {
     border-radius: 10px;
     background-color: white;
-    width: 280px;
-    height: 361px;
+    width: 280px; 
 }

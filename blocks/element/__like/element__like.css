@@ -7,12 +7,12 @@
     height: 19px;
     background-repeat: no-repeat;
     background-color: white;
-    background-image: url(../../../images/like.png);
+    background-image: url(../../../images/like.svg);
     cursor: pointer;
 }
 
 .element__like:focus {
-    background-image: url(../../../images/Union.png);
+    background-image: url(../../../images/Union.svg);
 }
 
 .element__like:hover {
@@ -20,5 +20,5 @@
 }
 
 .element__like:active {
-    background-image: url(../../../images/Union.png);
+    background-image: url(../../../images/Union.svg);
 }

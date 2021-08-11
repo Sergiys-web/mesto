@@ -9,5 +9,7 @@
 @media(max-width: 790px) {
     .profile__table {
         align-items: center;
+        max-width: 217px;
+        margin-bottom: 36px;
     }
 }
