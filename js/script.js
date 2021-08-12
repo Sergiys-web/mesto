@@ -1,4 +1,4 @@
-let formElement = document.querySelector('.popup__container');
+let formElement = document.querySelector('.popup__form');
 let nameInput = document.querySelector('.popup__input_type_name');
 let jobInput = document.querySelector('.popup__input_type_job');
 let editButton = document.querySelector('.profile__edit-button');
@@ -8,10 +8,10 @@ let profileName = document.querySelector('.profile__name');
 let profileJob = document.querySelector('.profile__job');
 
 let popupOpen = () => {
-  popup.classList.add('popup_status_opened');
+  popup.classList.add('popup_opened');
 }
 let popupClose = () => {
-  popup.classList.remove('popup_status_opened');
+  popup.classList.remove('popup_opened');
 }
 let formSubmitHandler = evt => {
     evt.preventDefault();

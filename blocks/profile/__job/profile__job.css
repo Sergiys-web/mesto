@@ -5,6 +5,7 @@
     line-height: 22px;
     color: #FFFFFF;
     margin: 0;
+    margin-top: 6px;
     text-overflow: ellipsis;
     max-width: 336px;
     overflow: hidden;
@@ -15,7 +16,7 @@
     .profile__job {
         font-size: 14px;
         line-height: 17px;
-        width: 282px;
+        max-width: 217px;
         text-align: center;
     }
 }
