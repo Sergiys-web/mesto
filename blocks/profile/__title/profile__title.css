@@ -1,6 +1,7 @@
 .profile__title {
     display: flex;
     position: relative;
+    align-items: baseline;
 }
 
 @media(max-width: 600px) {
