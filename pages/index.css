@@ -1,5 +1,7 @@
+@import url(../blocks/root/root.css);
+
 @import url(../vendor/fonts/fonts.css);
-@import url(../blocks/root/root.css);   
+   
 @import url(../blocks/container/container.css);
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/__footer/element__footer.css);
