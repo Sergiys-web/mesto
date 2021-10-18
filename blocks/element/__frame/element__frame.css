@@ -1,5 +1,8 @@
 .element__frame {
     border-radius: 10px;
     background-color: white;
-    width: 282px; 
+    width: 282px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 282px auto;
 }
