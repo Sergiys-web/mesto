@@ -45,8 +45,8 @@ const initialCards = [
 
 function creacteCard(name, link) {
   const newCardElement = newCardTemplate.querySelector('.element__frame').cloneNode(true); 
-  newCardElement.querySelector('.element__images').src = link;
-  newCardElement.querySelector('.element__images').alt = name;
+  newCardElement.querySelector('.element__images').src = link, alt = name;
+  // newCardElement.querySelector('.element__images').alt = name;
   newCardElement.querySelector('.element__text').textContent = name;
 
   newCardElement
@@ -66,6 +66,7 @@ function creacteCard(name, link) {
     .addEventListener('click', (event) => {
       openedPhotoName.textContent = event.target.alt;
       openedPhoto.src = event.target.src;
+      openedPhoto.alt = event.target.alt;
       openPopup(popupOpenPhoto);
     });
 
@@ -84,11 +85,11 @@ function addCard(event) {
     creacteCard(newCardNameInput.value, newCardLinkInput.value)
   );
 
-  closePopup(popupnewCard);
+  closePopup(popupNewCard);
 }
 
 function openPopup(popup) {
-  popup.classList.toggle('popup_opened');
+  popup.classList.add('popup_opened');
 }
 
 function closePopup(popup) {
