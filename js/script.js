@@ -46,7 +46,7 @@ const initialCards = [
 function creacteCard(name, link) {
   const newCardElement = newCardTemplate.querySelector('.element__frame').cloneNode(true); 
   newCardElement.querySelector('.element__images').src = link, alt = name;
-  // newCardElement.querySelector('.element__images').alt = name;
+  newCardElement.querySelector('.element__images').alt = name;
   newCardElement.querySelector('.element__text').textContent = name;
 
   newCardElement
