@@ -77,7 +77,6 @@ initialCards.forEach(function (newCard) {
   newCardContainer.append(creacteCard(newCard.name, newCard.link));
 });
 
-
 function addCard(event) {
   event.preventDefault();
 
@@ -86,6 +85,8 @@ function addCard(event) {
   );
 
   closePopup(popupNewCard);
+  newCardNameInput.value = '';
+  newCardLinkInput.value = '';
 }
 
 function openPopup(popup) {
